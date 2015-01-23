@@ -1,10 +1,12 @@
 package com.loquatic.tests;
 
-import com.trustwave.baristamatic.inventory.impl.InventoryManager;
-import com.trustwave.baristamatic.inventory.interfaces.IInventoryManager;
-import com.trustwave.baristamatic.menu.impl.MenuManager;
-import com.trustwave.baristamatic.menu.interfaces.IMenuManager;
+
+import com.loquatic.baristamatic.inventory.impl.InventoryManager;
+import com.loquatic.baristamatic.inventory.interfaces.IInventoryManager;
+import com.loquatic.baristamatic.menu.impl.MenuManager;
+import com.loquatic.baristamatic.menu.interfaces.IMenuManager;
 import junit.framework.TestCase;
+
 import org.apache.log4j.Logger;
 
 public class MenuManagerTest extends TestCase {

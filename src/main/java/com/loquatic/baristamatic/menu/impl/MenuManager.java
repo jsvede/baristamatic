@@ -119,8 +119,7 @@ public class MenuManager implements IMenuManager {
             out.println(Constants.MENU + Constants.LINE_FEED);
             int index = 1;
             for (MenuItem mItem : menuItems) {
-                out.println(mItem.toString(index, isItemAvailable(mItem.getName()))
-                        + Constants.LINE_FEED);
+                out.println(mItem.toString(index, isItemAvailable(mItem.getName())));
                 index++;
             }
         }

@@ -1,7 +1,7 @@
 package com.loquatic.tests;
 
-import com.trustwave.baristamatic.inventory.impl.InventoryManager;
-import com.trustwave.baristamatic.inventory.interfaces.IInventoryManager;
+import com.loquatic.baristamatic.inventory.impl.InventoryManager;
+import com.loquatic.baristamatic.inventory.interfaces.IInventoryManager;
 import junit.framework.TestCase;
 import org.apache.log4j.Logger;
 

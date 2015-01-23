@@ -99,13 +99,13 @@ public class InventoryManager implements IInventoryManager {
 
     public void listInventory(PrintStream out) {
         Collections.sort(inventory, new InventoryItemComparator());
-        out.println(Constants.INVENTORY + Constants.LINE_FEED);
+        out.println(Constants.INVENTORY);
         if (inventory != null && inventory.size() > 0) {
             Iterator listIt = inventory.iterator();
             while (listIt.hasNext()) {
                 IInventoryItem item = (IInventoryItem) listIt.next();
                 out.println(MessageFormat.format(messageForInventory, item.getName(),
-                        item.getInventory()) + Constants.LINE_FEED);
+                        item.getInventory()));
             }
         }
     }
